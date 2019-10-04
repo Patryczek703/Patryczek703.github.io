@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri midja midja midja haegri "
+    "fotur fotur fotur fotur fotur"; 
+
+}
+.header{
+    grid-area: haus;
+    border: 1px dotted red;
+}
+.navbar{
+    grid-area: valmynd;
+    border: 1px dotted red;
+}
+.left{
+    grid-area: vinstri;
+    border: 1px dotted red;
+}
+.main{
+    grid-area: midja;
+    border: 1px dotted red;
+}
+.right{
+    grid-area: haegri;
+    border: 1px dotted red;
+}
+.footer{
+    grid-area: fotur;
+    border: 1px dotted red;
+}
